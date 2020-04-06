@@ -1,0 +1,123 @@
+@import "../sass/bootstrap_variable";
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+h3{
+  font-size: 16px;
+}
+
+.text-color-12, .text{
+  color: #999;
+}
+.text-color-26, .text{
+  color: #777;
+}
+.text-color-46, .text{
+  color: #555;
+}
+.text-color-64, .text{
+  color: #333;
+}
+.text-color-87, .text-bold{
+  color: #111;
+}
+
+// =========
+// Text size
+// =========
+.text-exx-small, .text-10{
+  font-size: 10px;
+}
+.text-ex-small, .text-12{
+  font-size: 12px;
+}
+.text-small, .text-14{
+  font-size: 14px;
+}
+.text-normal, .text-16{
+  font-size: 16px;
+}
+.text-big, .text-18{
+  font-size: 18px;
+}
+.text-big-1, .text-20{
+  font-size: 20px;
+}
+.text-big-2, .text-24{
+  font-size: 24px;
+}
+.text-multiple-line{
+  white-space: pre-wrap;
+}
+.text-1-line{
+  line-height: 19px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+.text-2-line{
+  line-height: 19px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+@include media-breakpoint-up(md){
+  .text-md-ex-small, .text-md-12{
+    font-size: 12px;
+  }
+  .text-md-small, .text-md-14{
+    font-size: 14px;
+  }
+  .text-md-normal, .text-md-16{
+    font-size: 16px;
+  }
+  .text-md-big, .text-md-18{
+    font-size: 18px;
+  }
+  .text-md-big-1, .text-md-20{
+    font-size: 20px;
+  }
+}
+
+//Heading for SEO
+.S-h1, .S-h2, .S-h3 , .S-h4 {
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  color:#111;
+}
+.S-h1{
+  font-size:32px;
+  line-height: 37px;
+}
+.S-h2{
+  font-size:24px;
+  line-height: 28px;
+}
+.S-h3{
+  font-size: 18px;
+  line-height: 21px;
+}
+.S-h4{
+  font-size: 16px;
+  line-height: 19px;
+}
+@media screen and (max-width:576px){
+  .S-h1{
+    font-size:24px;
+    line-height: 28px;
+  }
+  .S-h2{
+    font-size:18px;
+    line-height: 21px;
+  }
+  .S-h3{
+    font-size:16px;
+    line-height: 19px;
+  }
+  .S-h4{
+    font-size:14px;
+    line-height: 16px;
+  }
+}

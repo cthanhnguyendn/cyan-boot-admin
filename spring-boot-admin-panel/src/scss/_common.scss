@@ -1,0 +1,104 @@
+@import "./_bootstrap_variable.scss";
+@import "./text";
+
+
+
+// ================
+// Icon, avatar
+// ================
+.small-icon{
+  font-size: 18px;
+  color: #242424;
+}
+.small-avatar{
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+// ================
+// Button
+// ================
+.btn-light{
+  background-color: #ffffff;
+}
+.btn-skill{
+  color: #6c757d;
+  border-color: #6c757d;
+  padding: 6px 18px;
+  font-size: 12px;
+}
+.btn-skill-link{
+  @extend .btn-skill;
+  color: #00ACE0;
+  border-color: #00ACE0;
+}
+.btn-icon-round{
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px rgba(8, 35, 48, 0.24);
+}
+.btn-apply{
+  @extend .btn-primary;
+}
+.btn-close{
+  background-color: #999;
+  opacity: 1;
+}
+.btn-applied{
+  @extend .btn-primary;
+}
+.btn-accept-hunt{
+  @extend .btn-primary;
+  background: #FF737E;
+  border-color: #ff6775;
+  &:hover{
+    border-color: #ffa0a5;
+    background: #ffa0a5;
+  }
+}
+.btn-reject{
+  background: #F1F1F1;
+  border-color: rgba(0, 0, 0, 0.12);
+
+  &:hover{
+    border-color: rgba(36, 36, 36, 0.12);;
+    background: #dddddd;
+  }
+}
+.btn-rejected{
+  @extend .btn-secondary;
+}
+.btn-message{
+  @extend .btn-primary;
+}
+.btn-unmatched{
+
+}
+.freec-image-wrapper{
+  overflow: hidden;
+}
+.vertical-line{
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  padding-top: 1px;
+}
+.vertical-line--white{
+  border-top: 1px solid #fff;
+  padding-top: 1px;
+}
+
+//
+//
+//
+
+a.link-normalize{
+  text-decoration: none;
+  color: inherit;
+}
+
+.loading-shape{
+  background: #545b62;
+  border-radius: 6px;
+}
+.loading-shape--light{
+  background: #dcdcdc;
+  border-radius: 6px;
+}
